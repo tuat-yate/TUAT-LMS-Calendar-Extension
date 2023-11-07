@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "TUAT Sirius Calender Extension",
+    "version": "0.9.0",
+    "description": "",
+    "content_scripts": [
+      {
+        "matches": ["https://lms.sirius.tuat.ac.jp/*"],
+        "js": ["content.js"]
+      }
+    ],
+    "icons":{
+        "128":"schedule.png"
+    }
+  }
+  
